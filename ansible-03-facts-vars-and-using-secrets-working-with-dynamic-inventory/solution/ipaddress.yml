@@ -1,0 +1,12 @@
+- hosts: all
+  vars:
+    ansible_ssh_private_key_file: "/home/ec2-user/ogi-us-key.pem"
+  tasks:
+    - name: uptime tasks
+      command: uptime
+      register: uptime_result
+
+    - name: uptime debug
+      ansible.builtin.debug:
+        msg: >
+          {{ uptime_result }}
