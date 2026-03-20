@@ -191,7 +191,7 @@ node3 | SUCCESS => { "ping": "pong" }
 | 03  | [`ansible-03-facts-vars-and-using-secrets-working-with-dynamic-inventory`](./ansible-03-facts-vars-and-using-secrets-working-with-dynamic-inventory) | Gather facts · Variables · Vault (secrets) · Dynamic inventory                                 |
 | 04  | [`ansible-04-directory-layout-starategy-errors`](./ansible-04-directory-layout-starategy-errors)                                                     | Best practice layout · Error handling · ignore_errors · block/rescue                           |
 | 05  | [`ansible-05-using-roles-and-ansible-galaxy`](./ansible-05-using-roles-and-ansible-galaxy)                                                           | Roles · ansible-galaxy · Reusable automation · Community roles                                 |
-| 06  | [`ansible-06-templates-tags-and-debugging`](./ansible-06-templates-tags-and-debugging)                                                               | Jinja2 templates · Variable precedence · Tags · include/import · Debugging · Testing           |
+| 06  | [`ansible-06-manage-windows-with-ansible`](./ansible-06-manage-windows-with-ansible)                                                                 | Jinja2 templates · Variable precedence · Tags · include/import · Debugging · Testing           |
 
 ---
 
